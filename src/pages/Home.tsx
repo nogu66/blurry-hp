@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { Download, Globe, Shield, Zap, Eye, Smartphone } from 'lucide-react';
+import { Download, Globe, Eye, Scan, Palette, Save } from 'lucide-react';
+import BlurryIcon from '../assets/blurryicon.png';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -18,9 +19,7 @@ export default function Home() {
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-purple-600 rounded-xl flex items-center justify-center">
-              <Eye className="w-6 h-6 text-white" />
-            </div>
+            <img src={BlurryIcon} alt="Blurry" className="w-10 h-10 rounded-xl" />
             <span className="text-xl font-bold text-gray-900">Blurry</span>
           </div>
           <button
@@ -37,9 +36,7 @@ export default function Home() {
       <section className="bg-gradient-to-br from-purple-50 to-indigo-50 py-20">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="mb-8">
-            <div className="w-24 h-24 bg-purple-600 rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-lg">
-              <Eye className="w-12 h-12 text-white" />
-            </div>
+            <img src={BlurryIcon} alt="Blurry" className="w-24 h-24 rounded-3xl mx-auto mb-6 shadow-lg" />
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               {t('hero.title')}
             </h1>
@@ -73,7 +70,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-purple-100 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                <Zap className="w-8 h-8 text-purple-600" />
+                <Scan className="w-8 h-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {t('features.feature1.title')}
@@ -84,7 +81,7 @@ export default function Home() {
             </div>
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-purple-100 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                <Shield className="w-8 h-8 text-purple-600" />
+                <Palette className="w-8 h-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {t('features.feature2.title')}
@@ -95,7 +92,7 @@ export default function Home() {
             </div>
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-purple-100 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                <Smartphone className="w-8 h-8 text-purple-600" />
+                <Save className="w-8 h-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {t('features.feature3.title')}
@@ -109,7 +106,7 @@ export default function Home() {
       </section>
 
       {/* Screenshots Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -167,7 +164,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-purple-600">

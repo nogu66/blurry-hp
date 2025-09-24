@@ -4,28 +4,42 @@
     "subtitle": "Share photos safely while protecting privacy",
     "downloadButton": "Download on App Store"
   },
+ "cta": {
+    "title": "Blurry - Hide your face automatically",
+    "subtitle": "Share photos safely while protecting privacy",
+    "downloadButton": "Download on App Store"
+  },
   "features": {
     "title": "Key Features",
-    "autoBlur": {
+    "subtitle": "High-precision AI face detection with versatile hiding options for complete privacy protection",
+    "feature1": {
       "title": "Auto Face Detection",
-      "description": "AI automatically detects and blurs faces in your photos"
+      "description": "AI automatically detects faces in photos with instant recognition"
     },
-    "oneClick": {
-      "title": "One-Click Save",
-      "description": "Save your edited photos with just one click"
+    "feature2": {
+      "title": "Versatile Hiding Options",
+      "description": "Choose from blur, mosaic, fill, or emoji to hide faces"
     },
-    "simpleEdit": {
-      "title": "Simple Editing",
-      "description": "Intuitive interface that anyone can use easily"
+    "feature3": {
+      "title": "One-Tap Save",
+      "description": "Easily save edited photos to your photo library"
     }
   },
   "screenshots": {
     "title": "App Screenshots"
   },
   "footer": {
-    "terms": "Terms of Service",
-    "privacy": "Privacy Policy",
-    "language": "Language"
+    "description": "Share photos safely while protecting privacy",
+    "links": {
+      "title": "Links",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    },
+    "download": {
+      "title": "Download",
+      "appStore": "Download on App Store"
+    },
+    "copyright": "© 2024 Blurry. All rights reserved."
   },
   "navigation": {
     "home": "Home",

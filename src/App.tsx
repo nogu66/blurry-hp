@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "@/pages/Home";
-import Terms from "@/pages/Terms";
-import Privacy from "@/pages/Privacy";
+import Home from "./pages/Home";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
 
-export default function App() {
+export default function App(): JSX.Element {
   return (
     <Router>
       <Routes>

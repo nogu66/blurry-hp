@@ -4,28 +4,42 @@
     "subtitle": "プライバシーを守りながら、写真を安心してシェア",
     "downloadButton": "App Storeでダウンロード"
   },
+  "cta": {
+    "title": "Blurry - 顔を自動で隠すアプリ",
+    "subtitle": "プライバシーを守りながら、写真を安心してシェア",
+    "downloadButton": "App Storeでダウンロード"
+  },
   "features": {
     "title": "主な機能",
-    "autoBlur": {
-      "title": "自動顔認識",
-      "description": "AIが自動で顔を検出してぼかし処理を適用します"
+    "subtitle": "AIによる高精度な顔検出と多彩な隠し方で、プライバシーを完全保護",
+    "feature1": {
+      "title": "自動顔検出",
+      "description": "AIが写真内の顔を自動で検出し、瞬時に認識します"
     },
-    "oneClick": {
-      "title": "ワンクリック保存",
-      "description": "編集した写真を簡単に保存できます"
+    "feature2": {
+      "title": "多彩な隠し方",
+      "description": "ぼかし、モザイク、塗りつぶし、絵文字から選択可能"
     },
-    "simpleEdit": {
-      "title": "簡単編集",
-      "description": "直感的な操作で誰でも簡単に使えます"
+    "feature3": {
+      "title": "ワンタップ保存",
+      "description": "編集した写真を簡単にフォトライブラリに保存"
     }
   },
   "screenshots": {
     "title": "アプリの使用例"
   },
   "footer": {
-    "terms": "利用規約",
-    "privacy": "プライバシーポリシー",
-    "language": "言語"
+    "description": "プライバシーを守りながら、写真を安心してシェア",
+    "links": {
+      "title": "リンク",
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー"
+    },
+    "download": {
+      "title": "ダウンロード",
+      "appStore": "App Storeでダウンロード"
+    },
+    "copyright": "© 2024 Blurry. All rights reserved."
   },
   "navigation": {
     "home": "ホーム",

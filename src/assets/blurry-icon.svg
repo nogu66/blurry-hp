@@ -1,0 +1,40 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#8B5CF6"/>
+  
+  <!-- Main character body -->
+  <g transform="translate(128, 80)">
+    <!-- Body -->
+    <path d="M128 352C198.692 352 256 294.692 256 224C256 153.308 198.692 96 128 96C57.3076 96 0 153.308 0 224C0 294.692 57.3076 352 128 352Z" fill="#7DD3FC" stroke="#1E293B" stroke-width="8"/>
+    
+    <!-- Head -->
+    <path d="M128 160C166.66 160 198 128.66 198 90C198 51.3401 166.66 20 128 20C89.3401 20 58 51.3401 58 90C58 128.66 89.3401 160 128 160Z" fill="#7DD3FC" stroke="#1E293B" stroke-width="8"/>
+    
+    <!-- Hands covering eyes -->
+    <ellipse cx="90" cy="80" rx="20" ry="25" fill="#7DD3FC" stroke="#1E293B" stroke-width="6"/>
+    <ellipse cx="166" cy="80" rx="20" ry="25" fill="#7DD3FC" stroke="#1E293B" stroke-width="6"/>
+    
+    <!-- Fingers -->
+    <path d="M75 65L85 55M85 65L95 55M95 65L105 55" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M151 65L161 55M161 65L171 55M171 65L181 55" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Smile -->
+    <path d="M108 100C118 110 138 110 148 100" stroke="#1E293B" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Tail -->
+    <circle cx="200" cy="280" r="40" fill="#7DD3FC" stroke="#1E293B" stroke-width="8"/>
+    <circle cx="180" cy="260" r="25" fill="#7DD3FC" stroke="#1E293B" stroke-width="6"/>
+    <circle cx="165" cy="245" r="15" fill="#7DD3FC" stroke="#1E293B" stroke-width="4"/>
+    
+    <!-- Blush -->
+    <circle cx="60" cy="95" r="8" fill="#F472B6" opacity="0.6"/>
+    <circle cx="196" cy="95" r="8" fill="#F472B6" opacity="0.6"/>
+    
+    <!-- Arms -->
+    <ellipse cx="70" cy="180" rx="15" ry="35" fill="#7DD3FC" stroke="#1E293B" stroke-width="6"/>
+    <ellipse cx="186" cy="180" rx="15" ry="35" fill="#7DD3FC" stroke="#1E293B" stroke-width="6"/>
+    
+    <!-- Legs -->
+    <ellipse cx="100" cy="320" rx="18" ry="25" fill="#7DD3FC" stroke="#1E293B" stroke-width="6"/>
+    <ellipse cx="156" cy="320" rx="18" ry="25" fill="#7DD3FC" stroke="#1E293B" stroke-width="6"/>
+  </g>
+</svg>
