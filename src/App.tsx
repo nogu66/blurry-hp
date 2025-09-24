@@ -5,7 +5,7 @@ import Privacy from "./pages/Privacy";
 
 export default function App(): JSX.Element {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/terms" element={<Terms />} />
