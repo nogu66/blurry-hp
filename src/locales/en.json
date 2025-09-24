@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "title": "Blurry - Hide your face automatically",
+    "subtitle": "Share photos safely while protecting privacy",
+    "downloadButton": "Download on App Store"
+  },
+  "features": {
+    "title": "Key Features",
+    "autoBlur": {
+      "title": "Auto Face Detection",
+      "description": "AI automatically detects and blurs faces in your photos"
+    },
+    "oneClick": {
+      "title": "One-Click Save",
+      "description": "Save your edited photos with just one click"
+    },
+    "simpleEdit": {
+      "title": "Simple Editing",
+      "description": "Intuitive interface that anyone can use easily"
+    }
+  },
+  "screenshots": {
+    "title": "App Screenshots"
+  },
+  "footer": {
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "language": "Language"
+  },
+  "navigation": {
+    "home": "Home",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 1, 2024",
+    "content": {
+      "section1": {
+        "title": "1. Use of Service",
+        "text": "By using this application (the \"Service\"), you agree to be bound by these Terms of Service (the \"Terms\")."
+      },
+      "section2": {
+        "title": "2. Privacy Protection",
+        "text": "The Service automatically detects faces in user photos and applies blur effects. Processed image data is stored only on the user's device and is never transmitted to external servers."
+      },
+      "section3": {
+        "title": "3. Prohibited Uses",
+        "text": "You are prohibited from using the Service for illegal purposes or to infringe upon the rights of others."
+      },
+      "section4": {
+        "title": "4. Disclaimer",
+        "text": "We assume no responsibility for any damages arising from the use of this Service."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 1, 2024",
+    "content": {
+      "section1": {
+        "title": "1. Information We Collect",
+        "text": "This app only processes image data from photos selected by users. We do not collect any personally identifiable information."
+      },
+      "section2": {
+        "title": "2. Purpose of Information Use",
+        "text": "Collected image data is used solely for face recognition and blur processing purposes."
+      },
+      "section3": {
+        "title": "3. Information Storage",
+        "text": "Processed image data is stored only on the user's device. Image data is never transmitted to our servers."
+      },
+      "section4": {
+        "title": "4. Third-Party Disclosure",
+        "text": "We do not provide user image data to third parties."
+      }
+    }
+  }
+}
