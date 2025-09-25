@@ -12,7 +12,7 @@ export default function Home() {
     i18n.changeLanguage(newLang);
   };
 
-  const appStoreUrl = 'https://apps.apple.com/us/app/blurry-hide-your-face/id6752717271';
+  const appStoreUrl = t('appStore.url');
 
   // Set document title and meta description based on language
   React.useEffect(() => {

@@ -41,6 +41,9 @@
     },
     "copyright": "© 2024 Blurry. All rights reserved."
   },
+  "appStore": {
+    "url": "https://apps.apple.com/us/app/blurry-hide-your-face/id6752717271"
+  },
   "navigation": {
     "home": "Home",
     "terms": "Terms of Service",
